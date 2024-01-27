@@ -10,8 +10,9 @@ end
 
 -- Set user options
 return {
-  colorscheme = "terafox", -- Set colorscheme
-  relativenumber = true, -- show relative numberline
+  colorscheme = "terafox", -- set colorscheme
+  -- need to modify the following options in lua/astronvim/options.lua
+  relativenumber = false, -- turn off relative numberline
   wrap = true -- enable wrapping of lines longer than the width of window
 }
 

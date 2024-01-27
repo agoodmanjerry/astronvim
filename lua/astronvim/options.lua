@@ -28,7 +28,7 @@ local options = astronvim.user_opts("options", {
     number = true, -- show numberline
     preserveindent = true, -- preserve indent structure as much as possible
     pumheight = 10, -- height of the pop up menu
-    relativenumber = true, -- show relative numberline
+    relativenumber = false, -- show relative numberline
     shiftwidth = 2, -- number of space inserted for indentation
     showmode = false, -- disable showing modes in command line
     showtabline = 2, -- always display tabline
@@ -43,7 +43,7 @@ local options = astronvim.user_opts("options", {
     undofile = true, -- enable persistent undo
     updatetime = 300, -- length of time to wait before triggering the plugin
     virtualedit = "block", -- allow going past end of line in visual block mode
-    wrap = false, -- disable wrapping of lines longer than the width of window
+    wrap = true, -- disable wrapping of lines longer than the width of window
     writebackup = false, -- disable making a backup before overwriting a file
   },
   g = {
