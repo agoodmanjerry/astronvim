@@ -10,7 +10,7 @@ end
 
 -- Set user options
 return {
-  colorscheme = "astrodark", -- Set colorscheme
+  colorscheme = "terafox", -- Set colorscheme
   relativenumber = true, -- show relative numberline
   wrap = true -- enable wrapping of lines longer than the width of window
 }
