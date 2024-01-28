@@ -1,4 +1,4 @@
-return{
+return {
   {
     "EdenEast/nightfox.nvim",
     opts = {
@@ -22,5 +22,12 @@ return{
       },
       groups = { all = { NormalFloat = { link = "Normal" } } },
     },
+  },
+  {
+    "mfussenegger/nvim-dap-python",
+    config = function()
+      local dappython = require "dap-python"
+      dappython.setup()
+    end,
   },
 }
