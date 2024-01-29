@@ -23,7 +23,6 @@ return {
         "prettier",
         "stylua",
         "black",
-        "isort",
       })
     end,
   },
