@@ -10,6 +10,5 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.colorscheme.iceberg-vim" },
   -- import/override with your plugins folder
 }
